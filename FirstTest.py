@@ -1,4 +1,4 @@
-print("Hello World")
-print("Anuya")
+def print_something(name="something", age="unknown"):
+    print("My name is", name, "and my age is",age)
 
-concatenate
+print_something(24)
